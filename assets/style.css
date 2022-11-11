@@ -14,13 +14,8 @@
 
 
 
-#td {
-    border-style: solid;
-    border-width: 1px;
-}
-
 .navbar {
-    height: 100px;
+    height: 40px;
     font-size: 20px;
 }
 

@@ -66,6 +66,7 @@ function formsubmit(e) {
 
     row++;  //iterating to the next table row
     projectid++;  //iterating to the next project id number 
+    $('#projectform').trigger("reset");
 }
 
 /// looping through the local storage data to populate the table after the form reload//
@@ -86,4 +87,5 @@ for (let i = 0; i < localStorage.length; i++) {
     cell1.innerHTML = test.projectname;
     cell2.innerHTML = test.projecttype;
     cell3.innerHTML = test.projectdate;
+
 }   
