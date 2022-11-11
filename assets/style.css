@@ -1,0 +1,44 @@
+
+
+
+.hero {
+    height: 100px;
+    font-size: 80px;
+    text-align: center;
+}
+
+#time {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+#td {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.navbar {
+    height: 100px;
+    font-size: 20px;
+}
+
+.bodycontainer {
+    display: flex;
+    flex-direction: row;
+    flex:1; 
+}
+
+.projectform {
+    width: 400px; 
+    height: 400px; 
+    border-style: solid;
+    border-width: 1px;
+}
+
+.projectlist {
+    width: 800px; 
+    border-style: solid;
+    border-width: 1px;
+}
